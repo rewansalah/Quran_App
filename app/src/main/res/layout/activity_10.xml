@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity10">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="256dp"
+        android:layout_height="446dp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="128dp">
+
+        <RadioButton
+            android:id="@+id/radioMansoura"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="المنصورة" />
+
+        <RadioButton
+            android:id="@+id/radioAlex"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:text="الاسكندرية" />
+
+        <RadioButton
+            android:id="@+id/radioGiza"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="الجيزة" />
+
+        <RadioButton
+            android:id="@+id/radioAswan"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="أسوان" />
+
+        <RadioButton
+            android:id="@+id/radioCairo"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="القاهرة" />
+
+        <RadioButton
+            android:id="@+id/menofia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="المنوفية" />
+
+        <RadioButton
+            android:id="@+id/sohag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="سوهاج" />
+
+        <RadioButton
+            android:id="@+id/asiut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="أسيوط" />
+
+        <RadioButton
+            android:id="@+id/elwadielgedid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الوادي الجديد" />
+
+        <RadioButton
+            android:id="@+id/luxor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الاقصر" />
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
